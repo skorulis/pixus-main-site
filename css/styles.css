@@ -1,5 +1,5 @@
 .navbar-default {
-  background-color: #893a2c;
+  background-color: #202f32;
   border-color: #d25843;
 }
 .navbar-default .navbar-brand {
@@ -32,7 +32,7 @@
   background-color: #d25843;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #ffffff;
+  background-color: #202f32;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -43,4 +43,21 @@
 }
 .navbar-default .navbar-link:hover {
   color: #ffffff;
+}
+
+.container {
+	//background-color:#202f32;
+}
+
+.body {
+	background-color:#202f32
+}
+
+.icon1 {
+	color:#63b1c9;
+}
+
+.centered {
+	text-align:center;
+	display:block;
 }
