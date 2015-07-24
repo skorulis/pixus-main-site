@@ -1,63 +1,78 @@
-.navbar-default {
-  background-color: #202f32;
-  border-color: #d25843;
-}
-.navbar-default .navbar-brand {
-  color: #ffffff;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #ffffff;
-}
-.navbar-default .navbar-text {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #ffffff;
-  background-color: #d25843;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  color: #ffffff;
-  background-color: #d25843;
-}
-.navbar-default .navbar-toggle {
-  border-color: #d25843;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #d25843;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #202f32;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #ffffff;
-}
-.navbar-default .navbar-link {
-  color: #ffffff;
-}
-.navbar-default .navbar-link:hover {
-  color: #ffffff;
+.navbar-brand
+{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin: auto;
+    padding: 0;
 }
 
-.container {
-	//background-color:#202f32;
+h1 {
+    color:#fff;
+    text-align: center;
 }
 
-.body {
+.navbar {
+    min-height:100px 
+}
+
+.round-block {
+    background-color:#cacbd5;
+    border-radius: 5px;
+    color:#6d6c61;
+    padding: 6px;
+}
+
+body {
 	background-color:#202f32
+}
+
+.headshot {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+}
+
+.profile {
+    text-align: center;
+    padding:30px;
 }
 
 .icon1 {
 	color:#63b1c9;
 }
 
+.icon2 {
+	color:#e3434e;
+}
+
+.icon3 {
+	color:#e3b44e;
+}
+
+a.icon-twitter {
+    color:#4099FF;   
+}
+
+a.icon-blog {
+    color:#63b1c9;   
+}
+
+a.icon-email {
+    color:#e3434e;   
+}
+
 .centered {
 	text-align:center;
 	display:block;
 }
+
+
+html,body,button{-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased;-webkit-font-smoothing:antialiased}
+
+.text-divider {
+    height:40px;
+}
+
+.text-divider::after{content:'';display:block;position:absolute;width:40%;height:1px;box-shadow:0 1px 0 0 #e0e0e0;left:30%;bottom:-8px}

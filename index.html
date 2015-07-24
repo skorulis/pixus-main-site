@@ -15,7 +15,14 @@
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <a class="navbar-brand" href="#">Pixus</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>    
+        <a class="navbar-brand" href="#"><img src="images/logo-text.png" /></a>
+        
+        
         
         <div id="navbar" class="navbar-collapse collapse navbar-right">
           <ul class="nav navbar-nav">
@@ -25,6 +32,9 @@
           </ul>
     </nav>
         
+        <div class="page-header">
+            <h1>Example Page Header</h1>
+        </div>
     <div class="jumbotron">
       <div class="container centered">
         <h2>A smarter way to share images</h2>
@@ -36,36 +46,43 @@
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-        	<span class="centered icon1" >
-				<span class="fa-stack fa-3x">
-					<i class="fa fa-circle fa-stack-2x themed"></i>
-					<i class="fa fa-road fa-stack-1x fa-inverse"></i>
-				</span>
-			</span>
-        
-          <h2>It's all about the journey</h2>
-            <p>As you view photos your interactions take you on a photo journey. There's no destination, just more customised content for you to view.  </p>
+            <div class="round-block">
+                <span class="centered icon1" >
+				    <span class="fa-stack fa-3x">
+					   <i class="fa fa-circle fa-stack-2x themed"></i>
+					   <i class="fa fa-road fa-stack-1x fa-inverse"></i>
+				    </span>
+			     </span>
+                <h2>It's all about the journey</h2>
+                    <p>As you view photos your interactions take you on a photo journey. There's no destination, just more customised content for you to view.  </p>  
+            </div>
+        	
         </div>
         <div class="col-md-4">
-        	<span class="centered icon1">
-				<span class="fa-stack fa-3x">
-					<i class="fa fa-circle fa-stack-2x themed"></i>
-					<i class="fa fa-share-alt fa-stack-1x fa-inverse"></i>
-				</span>
-			</span>
-        
-          <h2>Photos take a journey too</h2>
-          <p>Pixus lets you track your photos and see where they've become popular. </p>
+            <div class="round-block">
+                <span class="centered icon2">
+				    <span class="fa-stack fa-3x">
+                        <i class="fa fa-circle fa-stack-2x themed"></i>
+					   <i class="fa fa-share-alt fa-stack-1x fa-inverse"></i>
+				    </span>
+			     </span>
+                <h2>Photos take a journey too</h2>
+                <p>Pixus lets you track your photos and see where they've become popular. </p>
+            </div>
        </div>
         <div class="col-md-4">
-        	<span class="centered icon1">
-				<span class="fa-stack fa-3x">
-					<i class="fa fa-circle fa-stack-2x themed"></i>
-					<i class="fa fa-heart fa-stack-1x fa-inverse"></i>
-				</span>
-			</span>
-          <h2>Sit back and relax</h2>
-          <p>Here at pixus we believe in making things easy. You don't have to worry about a thing, just let the app find the images you want to see. </p>
+            <div class="round-block">
+                <span class="centered icon3">
+				    <span class="fa-stack fa-3x">
+					   <i class="fa fa-circle fa-stack-2x themed"></i>
+					   <i class="fa fa-heart fa-stack-1x fa-inverse"></i>
+				    </span>
+			     </span>
+                <h2>Sit back and relax</h2>
+          <p>Heres at pixus we believe in making things easy. You don't have to worry about a thing, just let the app find the images you want to see. </p>
+            </div>
+        	
+          
         </div>
       </div>
     	
@@ -76,37 +93,39 @@
         </div>
         
         <div class="team">
-        	<h3>Team</h3>
-        	<div>
-        		<h3>Alex Skorulis</h3>
-        		<h4>Creator</h4>
-        		<p>Alex has been working as a mobile developer for over 5 years primarily focused on iOS with occasional dabblings in web and backend. He recently built a private photo messaging app called <a href="http://lenslife.com.au/">lenslife</a> and has a strong desire to explore the potential of P2P technologies.
+        	<h1>Team</h1>
+            <div class="text-divider"></div>
+            <div class="row">
+                <div class="col-md-6">
+        	       <div class="round-block profile">
+        		      <h3>Alex Skorulis</h3>
+        		      <h4>Creator</h4>
+                
+                        <img class="headshot" src="images/alex-pic.jpg" />
+                
+        		      <p>Alex has been working as a mobile developer for over 5 years primarily focused on iOS with occasional dabblings in web and backend. He recently built a private photo messaging app called <a href="http://lenslife.com.au/">lenslife</a> and has a strong desire to explore the potential of P2P technologies.
         		
-        	</div>
-        </div>
+        	       </div>
+                </div>
+            </div>
+            </div>
         
         <div class="social centered">
-        	<span class="theme--email">
-				<a href="mailto:alex@pixus.io" title="Email">
+				<a href="mailto:alex@pixus.io" title="Email" class="icon-email">
 					<span class="fa-stack fa-2x">
 						<i class="fa fa-circle fa-stack-2x themed"></i>
 						<i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
 					</span></a>
-			</span>
-			<span class="theme--twitter">
-				<a href="https://twitter.com/pixusdev" target="_blank" title="Twitter">
+				<a href="https://twitter.com/pixusdev" target="_blank" title="Twitter" class="icon-twitter">
 					<span class="fa-stack fa-2x">
 						<i class="fa fa-circle fa-stack-2x themed"></i>
 						<i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
 					</span></a>
-			</span>
-			<span class="theme--blog">
-				<a href="http://blog.pixus.io" target="_blank" title="Blog">
+				<a href="http://blog.pixus.io" target="_blank" title="Blog" class="icon-blog">
 					<span class="fa-stack fa-2x">
 						<i class="fa fa-circle fa-stack-2x themed"></i>
 						<i class="fa fa-bold fa-stack-1x fa-inverse"></i>
 					</span></a>
-			</span>
         </div>
         
         <footer>
