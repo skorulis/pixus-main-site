@@ -15,19 +15,24 @@
 
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-        </button>    
-        <a class="navbar-brand" href="#"><img class="nav-image" src="images/logo-text-150.png" /></a>
-        
-        <div class="navbar-collapse collapse">
+          </button>
+          <a class="navbar-brand" href="#"><img class="nav-image" src="images/logo-text-150.png" /></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
           <ul class="nav navbar-nav">
-              <li class="active nav-item"><a href="#" ><span class="fa fa-lge fa-home"></span><span class="nav-text">Home</span></a></li>
+            <li class="active nav-item"><a href="#" ><span class="fa fa-lge fa-home"></span><span class="nav-text">Home</span></a></li>
               <li class="nav-item"><a href="./faq.html"><span class="fa fa-lge fa-question"></span><span class="nav-text">FAQ</span></a></li>
               <li class="nav-item"><a href="#contact"><span class="fa fa-lge fa-envelope"></span><span class="nav-text">Contact</span></a></li>
           </ul>
+        </div><!--/.nav-collapse -->
+      </div>
     </nav>
         
         

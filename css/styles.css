@@ -1,17 +1,12 @@
 .navbar-brand
 {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    text-align: center;
     margin: auto;
-    padding: 0;
-    height:75px;
+    height:80px;
 }
 
 .nav-image {
     height: 75px;
-    margin-top: 5px;
+    margin-top: -10px;
 }
 
 .nav-text {
@@ -19,18 +14,10 @@
     margin-left: 4px;
 }
 
-.navbar {
-    min-height:80px;
-}
-
 .navbar-nav li a {
     line-height: 80px;
     height: 80px;
     padding-top: 0;
-}
-
-.nav-item,.nav-item a {
-    font-size: 15pt;
 }
 
 h1 {
