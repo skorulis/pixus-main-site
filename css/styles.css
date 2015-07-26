@@ -14,11 +14,9 @@
     margin-top: 5px;
 }
 
-h1 {
-    color:#fff;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.nav-text {
+    font-size: 15pt;
+    margin-left: 4px;
 }
 
 .navbar {
@@ -32,8 +30,16 @@ h1 {
 }
 
 .nav-item,.nav-item a {
-    font-size: 16pt;
+    font-size: 15pt;
 }
+
+h1 {
+    color:#fff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
 
 .round-block {
     background-color:#d0d0d6;
