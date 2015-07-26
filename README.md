@@ -1,3 +1,3 @@
-# today-experiment
+# pixus-main-site
 
-Messing around with react.js and Parse to create a website to log what I do each day
+Main website to give pixus a web presence. Responsive design using bootstrap.
