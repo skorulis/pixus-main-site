@@ -24,11 +24,16 @@
     padding-top: 0;
 }
 
-h1 {
+h1,h2 {
     color:#fff;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+h1 {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 
@@ -38,6 +43,24 @@ h1 {
     padding: 6px;
     min-height: 250px;
     text-align: center;
+}
+
+.container1 {
+  background-color:#a5b5b7;
+  color:#fff;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.brief {
+  padding-bottom: 10px; 
+}
+
+.team {
+  background-color:#a5b5b7;
+  color:#fff;
+  text-align: center;
+  padding-bottom: 10px;
 }
 
 .col-md-4 {
