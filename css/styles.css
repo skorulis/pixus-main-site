@@ -1,5 +1,9 @@
-.navbar-brand
-{
+.navbar-inverse{ /* assigning the top bar to the entire navbar div element */
+    box-shadow: 0px 4px 1px -3px #ffde91;
+}
+
+
+.navbar-brand {
     margin: auto;
     height:80px;
 }
@@ -29,9 +33,8 @@ h1 {
 
 
 .round-block {
-    background-color:#d0d0d6;
-    border-radius: 5px;
-    color:#6d6c61;
+    background-color:#a5b5b7 ;
+    color:#fff;
     padding: 6px;
     min-height: 250px;
     text-align: center;
@@ -42,10 +45,8 @@ h1 {
 }
 
 body {
-	background-color:#202f32;
+	background-color:#404040;
     padding-top: 120px;
-    
- 
 }
 
 .headshot {
@@ -64,15 +65,15 @@ body {
 }
 
 .icon1 {
-	color:#63b1c9;
+	color:#fed87f;
 }
 
 .icon2 {
-	color:#e3434e;
+	color:#fed87f;
 }
 
 .icon3 {
-	color:#e3b44e;
+	color:#fed87f;
 }
 
 a.icon-twitter {
@@ -98,4 +99,5 @@ a.icon-email {
 
 footer {
     color:#fff;
+    background-color: #555;
 }
