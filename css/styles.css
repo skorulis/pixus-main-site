@@ -79,8 +79,26 @@ body {
   margin-bottom: 30px;
 }
 
-.register {
-    display:none;
+#registerInterest input {
+  min-width:210px;
+  height:48px;
+  background:#fdfcfb;
+  border-radius:4px 0 0 4px;
+  font-size:16px
+  text-indent:5%;
+  border:none;
+}
+
+#registerInterest button {
+  margin-left: -4px;
+  width:90px; 
+  height:48px;
+  border:none;
+  background:#fed87f;
+  font-weight:bold;
+  font-size:16px;
+  color:#fff;
+  border-radius:0 4px 4px 0;
 }
 
 .profile {
