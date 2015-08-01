@@ -96,6 +96,11 @@ html {
   border-radius:0 4px 4px 0;
 }
 
+#registerSuccess {
+  padding-top:30px;
+  display:none;
+}
+
 .profile {
     text-align: center;
     padding:30px;

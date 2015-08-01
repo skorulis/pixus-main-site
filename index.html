@@ -76,12 +76,15 @@
       
   <div class="register">
     <h2>Register for updates on our progress</h2>
-    <form id="registerInterest" novalidate="novalidate">
-      <div class="form-group centered" data-required="true">
-		      <input type="text" name="email" placeholder="Your email address" id="4AH8kDxhS3ibFyxmy" required="" data-schema-key="email">    
+    <form class="centered" id="registerInterest" method="POST" action="https://pixus-main.herokuapp.com/registerInterest">
+      <input type="text" name="email" placeholder="Your email address" id="email">    
           <button type="submit" class="cta--primary">Register</button>
-	     </div>    
     </form>
+    
+    <div class="centered" id="registerSuccess">
+      <p>Thanks for registering, we'll be in touch with you shortly</p>
+    </div>
+    
   </div>
   
   <div class="row">
@@ -148,8 +151,9 @@
 
 </script>
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
     
     
 </body>
