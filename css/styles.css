@@ -31,7 +31,6 @@ h1,h2 {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: Arial, Helvetica, sans-serif ;
-    
 }
 
 h1 {
@@ -155,4 +154,9 @@ footer {
 .col-md-4 p {
   padding-left:20px;
   padding-right:20px;
+}
+
+
+.panel-body {
+  color:black;
 }
